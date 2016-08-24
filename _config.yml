@@ -24,6 +24,7 @@ description: "Website of OpenBangla Keyboard"
 # List of links in the navigation bar
 navbar-links:
   Home: ""
+  Download: "download"
   Blog: "blog"
   Github: "https://github.com/OpenBangla"
 
