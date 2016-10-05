@@ -42,6 +42,9 @@ Unleash your typing speed with this great algorithm. In a good number of cases, 
 **Old Style “Reph”:**
 Although in phonetic typing method Reph is typed at the beginning of a consonant, this may be seemed peculiar to the users (and it happened!). Like Avro Keyboard, OpenBangla Keyboard now uses the “auto Reph” feature, which will automatically move the Reph at the beginning of a consonant/"juktakkhor" (conjunct) when you type it at the end. This Old Style Reph can also be kept disabled from the **Settings menu**.
 
+**Traditional Kar Joining:**
+There are two forms of Kar joining. One is `রু` which is frequently used, but there is an another form `র‌ু` which is used in books. With this option we can write in this form as we like. This option can be enabled from the **Settings menu**.
+
 **Avro Keyboard Layout Support:**
 OpenBangla Keyboard supports the layouts file that are from Avro Keyboard. So you can use those layouts you have created with Avro Keyboard tools!
 
