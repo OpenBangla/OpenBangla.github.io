@@ -3,7 +3,7 @@ layout: page
 title: "OpenBangla Keyboard"
 subtitle: "An Open Source Bengali input method"
 keywords: "OpenBangla Keyboard, Bangla, Bengali, Unicode, Linux, Avro Keyboard on Linux, Free, Open Source, Avro Phonetic, Bangla Computing, Bengali Computing, IME, Input Method, Input Method Editor, Touch Typing"
-bigimg: "/img/OpenBangla-Keyboard.png"
+bigimg: ["/img/OpenBangla-Keyboard.png", "/img/OBK1.png"]
 ---
 
 <center>
@@ -34,7 +34,11 @@ This English to Bangla phonetic typing method supports Dictionary with near abou
 **Multiple Keyboard Layout Support:**
 With OpenBangla Keyboard, you can choose your favourite layout at any time in **Layout menu** like you done in Avro Keyboard. Currently we package these layouts with OpenBangla Keyboard:
 
+* **Probhat**
+* **Munir Optima**
+* **Avro Easy** - An easy to learn keyboard layout from OmicronLab.
 * **Bornona** - The easiest Bangla keyboard layout we have found yet! From "The Safeworks".
+* **National (Jatiya)** - Standard Bangla Keyboard Layout in Bangladesh designed by Bangladesh Computer Council (BCC).
 
 **Automatic Vowel Forming:**
 Unleash your typing speed with this great algorithm. In a good number of cases, simply typing the kar/matra/short form of vowel will produce the full form of vowel automatically, there is no need to type the Link key. This Automatic Vowel Forming can also be kept disabled from the **Settings menu**.
