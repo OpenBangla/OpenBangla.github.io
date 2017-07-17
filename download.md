@@ -10,6 +10,6 @@ Linux packages can be downloaded from [here](https://github.com/OpenBangla/OpenB
 
 If you need help, there is a wiki [page](https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing%20OpenBangla%20Keyboard) on github
 
-Tested in Ubuntu 16.04
+Tested with Ubuntu 16.04 LTS and Ubuntu 17.04
 
 **Currently Debian Package(.deb) are only supported**
