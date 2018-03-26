@@ -8,8 +8,7 @@ bigimg: [{src: "img/OpenBangla-Keyboard.png"}, {src: "img/OBK1.png"}]
 **OpenBangla Keyboard** is an OpenSource Bengali input method for GNU/Linux systems.  It's flexible, gorgeous, feature rich, totally customizable, user friendly and already has a lot of typing automation tools that you have never imagined!
 
 <div style="text-align:center">
-    <iframe src="https://ghbtns.com/github-btn.html?user=OpenBangla&amp;repo=OpenBangla-Keyboard
-&amp;type=fork&amp;count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=OpenBangla&amp;repo=OpenBangla-Keyboard&amp;type=fork&amp;count=true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
     <iframe src="https://ghbtns.com/github-btn.html?user=OpenBangla&amp;repo=OpenBangla-Keyboard&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="106px" height="20px"></iframe>
 </div>
 
