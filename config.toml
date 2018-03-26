@@ -18,10 +18,10 @@ googleAnalytics = "UA-83035690-1"
 [Author]
   name = "OpenBangla Team"
   website = "http://openbangla.github.io"
-  #email = "youremail@domain.com"
+  email = "openbanglateam@gmail.com"
   #facebook = "username"
   github = "OpenBangla"
-  #twitter = "username"
+  twitter = "OpenBanglaTeam"
 
 [[menu.main]]
     name = "Home"
