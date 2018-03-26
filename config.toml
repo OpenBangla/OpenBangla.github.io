@@ -15,6 +15,14 @@ googleAnalytics = "UA-83035690-1"
   readingTime = true
   useHLJS = true
 
+[Author]
+  name = "OpenBangla Team"
+  website = "http://openbangla.github.io"
+  #email = "youremail@domain.com"
+  #facebook = "username"
+  github = "OpenBangla"
+  #twitter = "username"
+
 [[menu.main]]
     name = "Home"
     url = "/"
