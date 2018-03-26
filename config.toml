@@ -19,7 +19,7 @@ googleAnalytics = "UA-83035690-1"
   name = "OpenBangla Team"
   website = "http://openbangla.github.io"
   email = "openbanglateam@gmail.com"
-  #facebook = "username"
+  facebook = "openbanglakeyboard"
   github = "OpenBangla"
   twitter = "OpenBanglaTeam"
 
