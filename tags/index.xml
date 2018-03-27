@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on OpenBangla</title>
+    <link>http://openbangla.github.io/tags/</link>
+    <description>Recent content in Tags on OpenBangla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>openbanglateam@gmail.com (OpenBangla Team)</managingEditor>
+    <webMaster>openbanglateam@gmail.com (OpenBangla Team)</webMaster>
+    <lastBuildDate>Thu, 08 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://openbangla.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1.0.0</title>
+      <link>http://openbangla.github.io/tags/1.0.0/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/tags/1.0.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1.1.0</title>
+      <link>http://openbangla.github.io/tags/1.1.0/</link>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/tags/1.1.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>1.2.0</title>
+      <link>http://openbangla.github.io/tags/1.2.0/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/tags/1.2.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Openbangla Keyboard</title>
+      <link>http://openbangla.github.io/tags/openbangla-keyboard/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/tags/openbangla-keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Provat</title>
+      <link>http://openbangla.github.io/tags/provat/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/tags/provat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Release</title>
+      <link>http://openbangla.github.io/tags/release/</link>
+      <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/tags/release/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>প্রভাত</title>
+      <link>http://openbangla.github.io/tags/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%A4/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/tags/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AD%E0%A6%BE%E0%A6%A4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
