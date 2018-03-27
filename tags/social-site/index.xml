@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Site on OpenBangla</title>
+    <link>http://openbangla.github.io/tags/social-site/</link>
+    <description>Recent content in Social Site on OpenBangla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>openbanglateam@gmail.com (OpenBangla Team)</managingEditor>
+    <webMaster>openbanglateam@gmail.com (OpenBangla Team)</webMaster>
+    <lastBuildDate>Tue, 27 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://openbangla.github.io/tags/social-site/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Follow OpenBangla Keyboard on Social Sites!</title>
+      <link>http://openbangla.github.io/blog/follow-social-sites/</link>
+      <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/blog/follow-social-sites/</guid>
+      <description>OpenBangla Keyboard is now available on twitter and on facebook. Follow and like OpenBangla Keyboard on social sites to always stay updated!
+Follow our #facebook pagehttps://t.co/RCfCrUioV8
+&amp;mdash; OpenBangla (@OpenBanglaTeam) March 27, 2018  </description>
+    </item>
+    
+  </channel>
+</rss>
