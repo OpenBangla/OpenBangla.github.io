@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1.0.0 on OpenBangla</title>
+    <link>http://openbangla.github.io/tags/1.0.0/</link>
+    <description>Recent content in 1.0.0 on OpenBangla</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>openbanglateam@gmail.com (OpenBangla Team)</managingEditor>
+    <webMaster>openbanglateam@gmail.com (OpenBangla Team)</webMaster>
+    <lastBuildDate>Thu, 08 Sep 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://openbangla.github.io/tags/1.0.0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>OpenBangla Keyboard 1.0.0: Provat Released!</title>
+      <link>http://openbangla.github.io/blog/2016-09-08-releasing-1-0-0/</link>
+      <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
+      <author>openbanglateam@gmail.com (OpenBangla Team)</author>
+      <guid>http://openbangla.github.io/blog/2016-09-08-releasing-1-0-0/</guid>
+      <description>We&amp;rsquo;re proudly announcing the release of OpenBangla Keyboard version 1.0.0 nicknamed Probhat(প্রভাত), an Open Source Bengali input method.
+In Bangla Probhat(প্রভাত) means morning or starting of a new day. With this release we want to announce the starting of a new era of Bengali computing in Linux.
+On the other hand, Probhat is the name of the most used Bengali keyboard layout in Linux and found in most distros. It is designed by Ekushey, the first project to distribute free Bengali typing tools for Windows users.</description>
+    </item>
+    
+  </channel>
+</rss>
