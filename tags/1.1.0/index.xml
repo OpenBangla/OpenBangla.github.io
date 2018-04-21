@@ -19,10 +19,8 @@
       <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
       <author>openbanglateam@gmail.com (OpenBangla Team)</author>
       <guid>http://openbangla.github.io/blog/2016-11-21-releasing-1-1-0/</guid>
-      <description>We&amp;rsquo;re proudly announcing the release of OpenBangla Keyboard version 1.1.0, an Open Source Bengali input method.
-The most important news that now you will enjoy writing in phonetic method(Avro Phonetic) with OpenBangla Keyboard as like as with Avro Keyboard!
-For moving the Topbar easily we have now added a new button! So it&amp;rsquo;d be bit easier when moving the Topbar 😀.
-In this release we have also imported some keyboard layouts from Avro Keyboard.</description>
+      <description>&lt;p&gt;We&amp;rsquo;re proudly announcing the &lt;a href=&#34;https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.1.0&#34;&gt;release&lt;/a&gt; of OpenBangla Keyboard version &lt;strong&gt;1.1.0&lt;/strong&gt;, an Open Source Bengali input method.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

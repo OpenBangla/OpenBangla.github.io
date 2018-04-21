@@ -19,9 +19,8 @@
       <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
       <author>openbanglateam@gmail.com (OpenBangla Team)</author>
       <guid>http://openbangla.github.io/2017-07-17-releasing-1-2-0/</guid>
-      <description>We&amp;rsquo;re proudly announcing the release of OpenBangla Keyboard version 1.2.0, an Open Source Bengali input method.
-This release is mainly an bug fix release. This release fixes a long standing bug #8. For which OpenBangla Keyboard always crashed when writing arO, bistarito etc words using Avro Phonetic method.
-In this release, we are distributing installation packages for Ubuntu 16.04 LTS and Ubuntu 17.04. Users can download those packages from releases page.</description>
+      <description>&lt;p&gt;We&amp;rsquo;re proudly announcing the &lt;a href=&#34;https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.2.0&#34;&gt;release&lt;/a&gt; of OpenBangla Keyboard version &lt;strong&gt;1.2.0&lt;/strong&gt;, an Open Source Bengali input method.
+&lt;/p&gt;</description>
     </item>
     
   </channel>
