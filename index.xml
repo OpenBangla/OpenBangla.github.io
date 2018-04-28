@@ -70,9 +70,7 @@
       <author>openbanglateam@gmail.com (OpenBangla Team)</author>
       <guid>http://openbangla.github.io/download/</guid>
       <description>Linux packages can be downloaded from here
-If you need help, there is a wiki page on github
-Tested with Ubuntu 16.04 LTS and Ubuntu 17.04
-Currently Debian Package(.deb) are only supported</description>
+If you need help, there is a wiki page on github</description>
     </item>
     
   </channel>
