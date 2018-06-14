@@ -1,4 +1,4 @@
-baseURL = "http://openbangla.github.io"
+baseURL = "https://openbangla.github.io"
 languageCode = "en-us"
 title = "OpenBangla"
 theme = "beautifulhugo"
@@ -17,7 +17,7 @@ googleAnalytics = "UA-83035690-1"
 
 [Author]
   name = "OpenBangla Team"
-  website = "http://openbangla.github.io"
+  website = "https://openbangla.github.io"
   email = "openbanglateam@gmail.com"
   facebook = "openbanglakeyboard"
   github = "OpenBangla"

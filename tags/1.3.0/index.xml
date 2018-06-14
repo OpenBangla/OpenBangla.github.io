@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1.3.0 on OpenBangla</title>
-    <link>http://openbangla.github.io/tags/1.3.0/</link>
+    <link>https://openbangla.github.io/tags/1.3.0/</link>
     <description>Recent content in 1.3.0 on OpenBangla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>openbanglateam@gmail.com (OpenBangla Team)</webMaster>
     <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://openbangla.github.io/tags/1.3.0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://openbangla.github.io/tags/1.3.0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ওপেনবাংলা কিবোর্ড ১.৩.০ - প্রকাশিত!</title>
-      <link>http://openbangla.github.io/blog/releasing-1-3-0/</link>
+      <link>https://openbangla.github.io/blog/releasing-1-3-0/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0000</pubDate>
       <author>openbanglateam@gmail.com (OpenBangla Team)</author>
-      <guid>http://openbangla.github.io/blog/releasing-1-3-0/</guid>
+      <guid>https://openbangla.github.io/blog/releasing-1-3-0/</guid>
       <description>&lt;p&gt;বাংলা নববর্ষে আপনাদের কাছে ওপেনবাংলা কিবোর্ডের নতুন সংস্করণ উপহার দিতে পেরে আমি খুবই আনন্দিত। এই সংস্করণের নাম দেয়া হয়েছে বৈশাখী। যদিও ওপেনবাংলা কীবোর্ডের এই নতুন সংস্করণ প্রকাশ করতে আমার একটু বেশীই দেরি হয়ে গিয়েছে, কিন্তু নতুন বৎসরে এটা আপনাদের কাছে এনে দিতে পেরে আমার কিন্তু খুশি কম হচ্ছে না! চলুন চট করে দেখে নেয়া যাক এই নতুন সংস্করণে কি থাকছে 😄
 &lt;/p&gt;</description>
     </item>

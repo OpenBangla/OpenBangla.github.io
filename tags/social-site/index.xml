@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Site on OpenBangla</title>
-    <link>http://openbangla.github.io/tags/social-site/</link>
+    <link>https://openbangla.github.io/tags/social-site/</link>
     <description>Recent content in Social Site on OpenBangla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>openbanglateam@gmail.com (OpenBangla Team)</webMaster>
     <lastBuildDate>Tue, 27 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://openbangla.github.io/tags/social-site/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://openbangla.github.io/tags/social-site/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Follow OpenBangla Keyboard on Social Sites!</title>
-      <link>http://openbangla.github.io/blog/follow-social-sites/</link>
+      <link>https://openbangla.github.io/blog/follow-social-sites/</link>
       <pubDate>Tue, 27 Mar 2018 00:00:00 +0000</pubDate>
       <author>openbanglateam@gmail.com (OpenBangla Team)</author>
-      <guid>http://openbangla.github.io/blog/follow-social-sites/</guid>
+      <guid>https://openbangla.github.io/blog/follow-social-sites/</guid>
       <description>&lt;p&gt;OpenBangla Keyboard is now available on &lt;a href=&#34;https://twitter.com/OpenBanglaTeam&#34;&gt;twitter&lt;/a&gt; and on &lt;a href=&#34;https://www.facebook.com/openbanglakeyboard/&#34;&gt;facebook&lt;/a&gt;. Follow and like OpenBangla Keyboard on social sites to always stay updated!
 &lt;/p&gt;</description>
     </item>

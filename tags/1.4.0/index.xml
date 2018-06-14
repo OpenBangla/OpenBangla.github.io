@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1.4.0 on OpenBangla</title>
-    <link>http://openbangla.github.io/tags/1.4.0/</link>
+    <link>https://openbangla.github.io/tags/1.4.0/</link>
     <description>Recent content in 1.4.0 on OpenBangla</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,15 +10,15 @@
     <webMaster>openbanglateam@gmail.com (OpenBangla Team)</webMaster>
     <lastBuildDate>Fri, 04 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://openbangla.github.io/tags/1.4.0/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://openbangla.github.io/tags/1.4.0/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!</title>
-      <link>http://openbangla.github.io/blog/releasing-1-4-0/</link>
+      <link>https://openbangla.github.io/blog/releasing-1-4-0/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
       <author>openbanglateam@gmail.com (OpenBangla Team)</author>
-      <guid>http://openbangla.github.io/blog/releasing-1-4-0/</guid>
+      <guid>https://openbangla.github.io/blog/releasing-1-4-0/</guid>
       <description>&lt;p&gt;ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &amp;ldquo;&lt;em&gt;maintenance release&lt;/em&gt;&amp;rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।
 &lt;/p&gt;</description>
     </item>
