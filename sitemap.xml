@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://openbangla.github.io/blog/releasing-1-5-1/</loc>
+    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://openbangla.github.io/blog/releasing-1-5-0/</loc>
     <lastmod>2018-06-30T00:00:00+00:00</lastmod>
   </url>
@@ -74,6 +79,12 @@
   </url>
   
   <url>
+    <loc>https://openbangla.github.io/tags/1.5.1/</loc>
+    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://openbangla.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -84,17 +95,17 @@
   
   <url>
     <loc>https://openbangla.github.io/blog/</loc>
-    <lastmod>2018-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://openbangla.github.io/</loc>
-    <lastmod>2018-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://openbangla.github.io/tags/openbangla-keyboard/</loc>
-    <lastmod>2018-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +117,7 @@
   
   <url>
     <loc>https://openbangla.github.io/tags/release/</loc>
-    <lastmod>2018-06-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-10-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
