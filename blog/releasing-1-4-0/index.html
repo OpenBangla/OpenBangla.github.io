@@ -1,424 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<html class="no-js" lang="en-us"><head>
 
-  <title>ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!</title>
-  <meta property="og:title" content="ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!" />
-  <meta name="twitter:title" content="ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!" />
-  <meta name="description" content="ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;maintenance release&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।
-">
-  <meta property="og:description" content="ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;maintenance release&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।
-">
-  <meta name="twitter:description" content="ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;maintenance release&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।
-">
-  <meta name="author" content="OpenBangla Team"/>
-  <link href='https://openbangla.github.io/img/openbangla.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://openbangla.github.io/img/square.png" />
-  <meta name="twitter:image" content="https://openbangla.github.io/img/square.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@OpenBanglaTeam" />
-  <meta name="twitter:creator" content="@OpenBanglaTeam" />
-  <meta property="og:url" content="https://openbangla.github.io/blog/releasing-1-4-0/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="OpenBangla" />
-
-  <meta name="generator" content="Hugo 0.37.1" />
-  <link rel="canonical" href="https://openbangla.github.io/blog/releasing-1-4-0/" />
-  <link rel="alternate" href="https://openbangla.github.io/index.xml" type="application/rss+xml" title="OpenBangla">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://openbangla.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://openbangla.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://openbangla.github.io/css/codeblock.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Hugo 0.75.1" />
 
 
+<title>ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!</title>
+<meta property="og:title" content="ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!" />
+<meta name="twitter:title" content="ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!" />
+<meta name="description" content="ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;maintenance release&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।">
+<meta property="og:description" content="ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;maintenance release&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।">
+<meta name="twitter:description" content="ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;maintenance release&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।">
+<meta name="author" content="Muhammad Mominul Huque"/>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<meta property="og:image" content="https://openbangla.github.io/images/blog/default.png" />
+<meta name="twitter:image" content="https://openbangla.github.io/images/blog/default.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@OpenBanglaTeam" />
+<meta name="twitter:creator" content="@OpenBanglaTeam" />
+<meta property="og:url" content="https://openbangla.github.io/blog/releasing-1-4-0/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="OpenBangla Keyboard" />
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://openbangla.github.io/images/favicon.ico" />
+
+<!-- Stylesheets -->
+<!-- Themefisher Icon font -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/themefisher-font/style.css">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/bootstrap/dist/css/bootstrap.min.css">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/lightbox2/dist/css/lightbox.min.css">
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/slick-carousel/slick/slick-theme.css">
+<!-- Main Stylesheet -->
 
 
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-83035690-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<link rel="stylesheet" href="https://openbangla.github.io/css/style.min.css" media="screen">
 
 </head>
-
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://openbangla.github.io">OpenBangla</a>
+<body id="body">
+        <!-- Start Preloader -->
+<div id="preloader">
+    <div class="preloader">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
     </div>
-
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="Home" href="/">Home</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Download" href="/download/">Download</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Blog" href="/blog/">Blog</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Github" href="https://github.com/OpenBangla">Github</a>
-            </li>
-          
-        
-
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-          <a title="OpenBangla" href="https://openbangla.github.io">
-            <img class="avatar-img" src="https://openbangla.github.io/img/square.png" alt="OpenBangla" />
-          </a>
-        
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
-
-
-    
-
-
-
-
-
-  
-    <div id="header-big-imgs" data-num-img=1 data-img-src-1="https://openbangla.github.io/img/OBK-1-4-0.png" ></div>
-  
-
-  <header class="header-section has-img">
-    
-      <div class="intro-header big-img">
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="post-heading">
-                <h1>ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!</h1>
-                  
-                  
-                    <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 4, 2018
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (205 words)
-  
-  
-</span>
-
-
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="img-desc" style="display: inline;"></span>
-      </div>
-    
-    <div class="intro-header no-img">
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="post-heading">
-              <h1>ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!</h1>
-                
-                
-                  <span class="post-meta">
-  
-  
-  <i class="fa fa-calendar-o"></i>&nbsp;Posted on May 4, 2018
-  
-  
-  &nbsp;|&nbsp;
-  <i class="fa fa-clock-o"></i> 1 minutes (205 words)
-  
-  
-</span>
-
-
-                
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-    
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
-        <p>ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;<em>maintenance release</em>&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।
-</p>
-
-<p>ওপেনবাংলা কিবোর্ডের টপবার এখন প্রথমবারের মতো স্টার্ট করা হলে স্ক্রিনের মাঝে অবস্থান নেবে। ফলে এখন টপবার সহজেই ড্র্যাগ করা সম্ভব হবে। পূর্ববর্তী সংস্করণে টপবার প্রথমবারের মতো স্টার্ট করা হলে স্ক্রিনের কর্নারে অবস্থান করত ফলে অনেক সময় টপবার ড্র্যাগ করা সম্ভব হতো না। বাগটি এই সংস্করণে ফিক্স করা হয়েছে।</p>
-
-<p>ওপেনবাংলা কিবোর্ড এখন স্বয়ংক্রিয়ভাবে নতুন আপডেটের জন্য ব্যবহারকারীকে অবহিত করবে। নতুন আপডেট পাওয়া গেলে ওপেনবাংলা কিবোর্ড ব্যবহারকারীকে জানাবে:
-
-<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
-<div class="box" >
-  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-    <div class="img">
-      <img itemprop="thumbnail" src="/img/update_notification.png" />
-    </div>
-    <a href="/img/update_notification.png" itemprop="contentUrl"></a>
-  </figure>
-</div></p>
-
-<h2 id="ইন-সটল-শন">ইন্সটলেশন</h2>
-
-<h3 id="উব-ন-ট">উবুন্টু</h3>
-
-<p>ব্যবহারকারীরা উবুন্টু বা ডেবিয়ান বেসড যেকোন সিস্টেমে সহজেই ওপেনবাংলা কিবোর্ড ইন্সটল করতে পারবেন। <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.4.0">রিলিজ পেইজ</a> থেকে <code>deb</code> প্যাকেজ ডাউনলোড করে তা সফটওয়্যার ইন্সটলারের মাধ্যমে বা নিম্নের কমান্ডের মাধ্যমে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।</p>
-
-<pre><code class="language-bash">$ sudo apt install ./path/to/OpenBanglaKeyboard/package.deb
-</code></pre>
-
-<p>বিস্তারিত জানতে <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard">উইকি</a> ভিজিট করুন।</p>
-
-<h3 id="ফ-ড-র">ফেডোরা</h3>
-
-<p>ব্যবহারকারীরা ফেডোরা বা ফেডোরা বেসড যেকোন সিস্টেমে সহজেই ওপেনবাংলা কিবোর্ড ইন্সটল করতে পারবেন। <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.4.0">রিলিজ পেইজ</a> থেকে <code>rpm</code> প্যাকেজ ডাউনলোড করে তা সফটওয়্যার ইন্সটলারের মাধ্যমে বা নিম্নের কমান্ডের মাধ্যমে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।</p>
-
-<pre><code class="language-bash">$ sudo dnf install ./path/to/OpenBanglaKeyboard/package.rpm
-</code></pre>
-
-<p>বিস্তারিত জানতে <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard">উইকি</a> ভিজিট করুন।</p>
-
-<p>ওপেনবাংলা কিবোর্ডের নতুন সংস্করণের সব পরিবর্তন জানতে <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/blob/master/CHANGELOG.md#140">চেঞ্জলগ দেখুন</a>।</p>
-
-<p><strong>অনিবার্য কারণে আমরা <a href="https://packagecloud.io/">packagecloud.io</a> এর মাধ্যমে ইন্সটলেশন সুবিধাটি বন্ধ করতে বাধ্য হয়েছি। তাই ব্যবহারকারীদের উপরে বর্ণিত নিয়মে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।</strong></p>
-      </article>
-
-      
-        <ul class="pager blog-pager">
-          
-            <li class="previous">
-              <a href="https://openbangla.github.io/blog/releasing-1-3-0/" data-toggle="tooltip" data-placement="top" title="ওপেনবাংলা কিবোর্ড ১.৩.০ - প্রকাশিত!">&larr; Previous Post</a>
-            </li>
-          
-          
-            <li class="next">
-              <a href="https://openbangla.github.io/blog/releasing-1-5-0/" data-toggle="tooltip" data-placement="top" title="ওপেনবাংলা কিবোর্ড ১.৫.০ - প্রকাশিত!">Next Post &rarr;</a>
-            </li>
-          
-        </ul>
-      
-
-
-      
-        
-          <div class="disqus-comments">
-            <div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "openbangla" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-          </div>
-        
-        
-      
-
-    </div>
-  </div>
 </div>
+<!-- End Preloader --><!-- Fixed Navigation -->
 
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:openbanglateam@gmail.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/openbanglakeyboard" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/OpenBangla" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/OpenBanglaTeam" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            
-            <a href="https://openbangla.github.io/index.xml" title="RSS">
-            
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              <a href="https://openbangla.github.io">OpenBangla Team</a>
-            
-          
+<section class="header navigation">
 
-          &nbsp;&bull;&nbsp;
-          2018
-
-          
-            &nbsp;&bull;&nbsp;
-            <a href="https://openbangla.github.io">OpenBangla</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.37.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md">
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="tf-ion-android-menu"></span>
+                    </button>
+                    
+                    
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://openbangla.github.io/">Home</a>
+                            </li>
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://openbangla.github.io/install">Install</a>
+                            </li>
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://openbangla.github.io/blog">Blog</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
     </div>
-  </div>
+</section><div id="content">
+
+<section class="blog-single section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                
+                <h2>ওপেনবাংলা কিবোর্ড ১.৪.০ - প্রকাশিত!</h2>
+                <div class="post-meta mb-5">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <span>By</span>
+                            Muhammad Mominul Huque
+                        </li>
+                        <li class="list-inline-item">
+                            <span>at</span>
+                            <span>May 4, 2018</span>
+                        </li>
+                    </ul>
+                </div>
+                <p>ওপেনবাংলা কিবোর্ডের এই সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;<em>maintenance release</em>&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে বেশী মূল্য দেয়া হয়েছে।</p>
+<p>ওপেনবাংলা কিবোর্ডের টপবার এখন প্রথমবারের মতো স্টার্ট করা হলে স্ক্রিনের মাঝে অবস্থান নেবে। ফলে এখন টপবার সহজেই ড্র্যাগ করা সম্ভব হবে। পূর্ববর্তী সংস্করণে টপবার প্রথমবারের মতো স্টার্ট করা হলে স্ক্রিনের কর্নারে অবস্থান করত ফলে অনেক সময় টপবার ড্র্যাগ করা সম্ভব হতো না। বাগটি এই সংস্করণে ফিক্স করা হয়েছে।</p>
+<p>ওপেনবাংলা কিবোর্ড এখন স্বয়ংক্রিয়ভাবে নতুন আপডেটের জন্য ব্যবহারকারীকে অবহিত করবে। নতুন আপডেট পাওয়া গেলে ওপেনবাংলা কিবোর্ড ব্যবহারকারীকে জানাবে:
+<figure>
+    <img src="/images/blog/update_notification.png"/> 
+</figure>
+</p>
+<h2 id="ইনসটলশন">ইন্সটলেশন</h2>
+<h3 id="উবনট">উবুন্টু</h3>
+<p>ব্যবহারকারীরা উবুন্টু বা ডেবিয়ান বেসড যেকোন সিস্টেমে সহজেই ওপেনবাংলা কিবোর্ড ইন্সটল করতে পারবেন। <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.4.0">রিলিজ পেইজ</a> থেকে <code>deb</code> প্যাকেজ ডাউনলোড করে তা সফটওয়্যার ইন্সটলারের মাধ্যমে বা নিম্নের কমান্ডের মাধ্যমে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo apt install ./path/to/OpenBanglaKeyboard/package.deb
+</code></pre></div><p>বিস্তারিত জানতে <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard">উইকি</a> ভিজিট করুন।</p>
+<h3 id="ফডর">ফেডোরা</h3>
+<p>ব্যবহারকারীরা ফেডোরা বা ফেডোরা বেসড যেকোন সিস্টেমে সহজেই ওপেনবাংলা কিবোর্ড ইন্সটল করতে পারবেন। <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases/tag/1.4.0">রিলিজ পেইজ</a> থেকে <code>rpm</code> প্যাকেজ ডাউনলোড করে তা সফটওয়্যার ইন্সটলারের মাধ্যমে বা নিম্নের কমান্ডের মাধ্যমে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo dnf install ./path/to/OpenBanglaKeyboard/package.rpm
+</code></pre></div><p>বিস্তারিত জানতে <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard">উইকি</a> ভিজিট করুন।</p>
+<p>ওপেনবাংলা কিবোর্ডের নতুন সংস্করণের সব পরিবর্তন জানতে <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/blob/master/CHANGELOG.md#140">চেঞ্জলগ দেখুন</a>।</p>
+<p><strong>অনিবার্য কারণে আমরা <a href="https://packagecloud.io/">packagecloud.io</a> এর মাধ্যমে ইন্সটলেশন সুবিধাটি বন্ধ করতে বাধ্য হয়েছি। তাই ব্যবহারকারীদের উপরে বর্ণিত নিয়মে ওপেনবাংলা কিবোর্ড ইন্সটল করতে হবে।</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        </div><!-- Footer Start -->
+<footer id="footer" class="bg-one">
+    <div class="footer-bottom">
+        <h6>Copyright 2015-2020 OpenBangla Team. All rights reserved.</h6>
+        <h6>Theme by 
+            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">themefisher.com</a>
+        </h6>
+    </div>
 </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://openbangla.github.io/js/main.js"></script>
-<script src="https://openbangla.github.io/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
-<script src="https://openbangla.github.io/js/load-photoswipe.js"></script>
+<!-- end footer -->
 
 
+<!-- Essential Scripts -->
 
+<!-- jQuery -->
+<script src="https://openbangla.github.io/plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://openbangla.github.io/plugins/bootstrap/dist/js/popper.min.js"></script>
+<script src="https://openbangla.github.io/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="https://openbangla.github.io/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="https://openbangla.github.io/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Slick Carousel -->
+<script src="https://openbangla.github.io/plugins/slick-carousel/slick/slick.min.js"></script>
+<!-- Portfolio Filtering -->
+<script src="https://openbangla.github.io/plugins/filterzr/jquery.filterizr.min.js"></script>
+<!-- Smooth Scroll js -->
+<script src="https://openbangla.github.io/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+<!-- Main Script -->
 
-
-
-  </body>
+<script src="https://openbangla.github.io/js/script.min.js"></script>
+</body>
 </html>
-

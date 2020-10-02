@@ -1,406 +1,614 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta name="keywords" content="[OpenBangla Keyboard, Bangla, Bengali, Unicode, Linux, Avro Keyboard on Linux, Free, Open Source, Avro Phonetic, Bangla Computing, Bengali Computing, IME, Input Method, Input Method Editor, Touch Typing]" />
+<html class="no-js" lang="en-us"><head>
 
-  <title>OpenBangla Keyboard</title>
-  <meta property="og:title" content="OpenBangla Keyboard" />
-  <meta name="twitter:title" content="OpenBangla Keyboard" />
-  <meta name="description" content="An Open Source Bengali input method">
-  <meta property="og:description" content="An Open Source Bengali input method">
-  <meta name="twitter:description" content="An Open Source Bengali input method">
-  <meta name="author" content="OpenBangla Team"/>
-  <link href='https://openbangla.github.io/img/openbangla.ico' rel='icon' type='image/x-icon'/>
-  <meta property="og:image" content="https://openbangla.github.io/img/square.png" />
-  <meta name="twitter:image" content="https://openbangla.github.io/img/square.png" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@OpenBanglaTeam" />
-  <meta name="twitter:creator" content="@OpenBanglaTeam" />
-  <meta property="og:url" content="https://openbangla.github.io/" />
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="OpenBangla" />
-
-  <meta name="generator" content="Hugo 0.37.1" />
-  <link rel="canonical" href="https://openbangla.github.io/" />
-  <link rel="alternate" href="https://openbangla.github.io/index.xml" type="application/rss+xml" title="OpenBangla">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://openbangla.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
-  <link rel="stylesheet" href="https://openbangla.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://openbangla.github.io/css/codeblock.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Hugo 0.75.1" />
 
 
+<title>OpenBangla Keyboard</title>
+<meta property="og:title" content="OpenBangla Keyboard" />
+<meta name="twitter:title" content="OpenBangla Keyboard" />
+<meta name="author" content=""/>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<meta property="og:image" content="https://openbangla.github.io/images/blog/default.png" />
+<meta name="twitter:image" content="https://openbangla.github.io/images/blog/default.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@OpenBanglaTeam" />
+<meta name="twitter:creator" content="@OpenBanglaTeam" />
+<meta property="og:url" content="https://openbangla.github.io/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="OpenBangla Keyboard" />
+
+<!-- Mobile Specific Meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="https://openbangla.github.io/images/favicon.ico" />
+
+<!-- Stylesheets -->
+<!-- Themefisher Icon font -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/themefisher-font/style.css">
+<!-- bootstrap.min css -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/bootstrap/dist/css/bootstrap.min.css">
+<!-- Lightbox.min css -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/lightbox2/dist/css/lightbox.min.css">
+<!-- Slick Carousel -->
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/slick-carousel/slick/slick.css">
+<link rel="stylesheet" href="https://openbangla.github.io/plugins/slick-carousel/slick/slick-theme.css">
+<!-- Main Stylesheet -->
 
 
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-    
-    <div class="pswp__container">
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-      <div class="pswp__item"></div>
-    </div>
-    
-    <div class="pswp__ui pswp__ui--hidden">
-    <div class="pswp__top-bar">
-      
-      <div class="pswp__counter"></div>
-      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-      <button class="pswp__button pswp__button--share" title="Share"></button>
-      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-      
-      
-      <div class="pswp__preloader">
-        <div class="pswp__preloader__icn">
-          <div class="pswp__preloader__cut">
-            <div class="pswp__preloader__donut"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-      <div class="pswp__share-tooltip"></div>
-    </div>
-    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-    </button>
-    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-    </button>
-    <div class="pswp__caption">
-      <div class="pswp__caption__center"></div>
-    </div>
-    </div>
-    </div>
-</div>
-
-<script>
-window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-ga('create', 'UA-83035690-1', 'auto');
-ga('send', 'pageview');
-</script>
-<script async src='//www.google-analytics.com/analytics.js'></script>
+<link rel="stylesheet" href="https://openbangla.github.io/css/style.min.css" media="screen">
 
 </head>
-
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://openbangla.github.io">OpenBangla</a>
+<body id="body">
+        <!-- Start Preloader -->
+<div id="preloader">
+    <div class="preloader">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
     </div>
+</div>
+<!-- End Preloader --><!-- Fixed Navigation -->
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-        
-          
-            <li>
-              <a title="Home" href="/">Home</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Download" href="/download/">Download</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Blog" href="/blog/">Blog</a>
-            </li>
-          
-        
-          
-            <li>
-              <a title="Github" href="https://github.com/OpenBangla">Github</a>
-            </li>
-          
-        
+<section class="header navigation">
 
-        
-
-        
-      </ul>
-    </div>
-
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        
-          <a title="OpenBangla" href="https://openbangla.github.io">
-            <img class="avatar-img" src="https://openbangla.github.io/img/square.png" alt="OpenBangla" />
-          </a>
-        
-      </div>
-    </div>
-
-  </div>
-</nav>
-
-
-
-
-    
-
-
-
-
-
-  
-    <div id="header-big-imgs" data-num-img=2 data-img-src-1="https://openbangla.github.io/img/OBK-1-4-0.png" data-img-src-2="https://openbangla.github.io/img/OBK1.png" ></div>
-  
-
-  <header class="header-section has-img">
-    
-      <div class="intro-header big-img">
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="page-heading">
-                <h1>OpenBangla Keyboard</h1>
-                  
-                    
-                      <hr class="small">
-                      <span class="page-subheading">An Open Source Bengali input method</span>
-                    
-                  
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="img-desc" style="display: inline;"></span>
-      </div>
-    
-    <div class="intro-header no-img">
-      
-      <div class="container">
+    <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
-              <h1>OpenBangla Keyboard</h1>
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-md">
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="tf-ion-android-menu"></span>
+                    </button>
+                    
+                    
+                    <div class="collapse navbar-collapse" id="navigation">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="https://openbangla.github.io/">Home</a>
+                            </li>
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://openbangla.github.io/install">Install</a>
+                            </li>
+                            
+                            
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://openbangla.github.io/blog">Blog</a>
+                            </li>
+                            
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section><div id="content">
+
+  
+<!-- Hero Area -->
+<section class="hero-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
                 
-                  
-                    <hr class="small">
-                    <span class="page-subheading">An Open Source Bengali input method</span>
-                  
+                <img class="img-fluid rounded" src="https://openbangla.github.io/images/256.png" alt="video-thumb">
+            </div>
+            <div class="col-md-6">
+                <div class="block">
+                    
+                        <h2>OpenBangla Keyboard</h2>
+                    
+                    
+                        <p>An open source, Unicode compliant, Bangla input method for GNU/Linux systems. It’s a full-fledged Bangla input method with many famous typing methods and typing automation tools.</p>
+                    
+                    
+                        <ul class="list-inline wow fadeInUp" data-wow-duration=".5s" data-wow-delay=".7s">
+                            <li class="list-inline-item">
+                                <a href="https://openbangla.github.io/install" class="btn btn-main">Install</a>
+                            </li>
+                        </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  
+<!-- Start About Section -->
+<section class="about-2 section bg-gray" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5">
                 
+                    <h2>The last Bangla writing solution you&#39;ll ever need!</h2>
                 
             </div>
-          </div>
+            <div class="col-12 col-md-7">
+                
+                    <p><strong>OpenBangla Keyboard</strong> comes with the popular <strong>Avro Phonetic</strong> which is the <em>de-facto</em> phonetic transliteration method for writing Bangla. It also includes multiple fixed keyboard layouts such as <strong>Probhat</strong>, <strong>Munir Optima</strong>, <strong>National (Jatiya)</strong> etc. which are very popular amongst the professional writers.</p>
+                
+            </div>
         </div>
-      </div>
     </div>
-  </header>
+</section>
+<!-- End About section -->
 
+
+  
 
     
-<div class="container" role="main">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <article role="main" class="blog-post">
+    <!-- Feature Section Start -->
+    <section class="services section-xs" id="services">
+        <div class="container">
+            <div class="row">
+                
+                    <!-- Single Feature Item -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-block color-bg text-center">
+                            <div class="service-icon text-center">
+                                <i class="tf-ion-flash"></i>
+                            </div>
+                            <h3>Fast</h3>
+                            <p>Built with performance in mind. 
+</p>
+                        </div>
+                    </div>
+                    <!-- End Single Feature Item -->
+                
+                    <!-- Single Feature Item -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-block color-bg text-center">
+                            <div class="service-icon text-center">
+                                <i class="tf-ion-android-list"></i>
+                            </div>
+                            <h3>Dictionary based suggestion</h3>
+                            <p>Can predict and suggest phonetically similar words with correct spelling on the fly.
+</p>
+                        </div>
+                    </div>
+                    <!-- End Single Feature Item -->
+                
+                    <!-- Single Feature Item -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-block color-bg text-center">
+                            <div class="service-icon text-center">
+                                <i class="tf-ion-android-checkbox-outline"></i>
+                            </div>
+                            <h3>Auto Correct</h3>
+                            <p>Brings commonly used English words to Bangla (like, Facebook, download etc.) even with their original English spelling and fixes numerous commonly mistyped words. It&#39;s also editable by the user!
+</p>
+                        </div>
+                    </div>
+                    <!-- End Single Feature Item -->
+                
+                    <!-- Single Feature Item -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-block color-bg text-center">
+                            <div class="service-icon text-center">
+                                <i class="tf-ion-android-star-outline"></i>
+                            </div>
+                            <h3>Your preference</h3>
+                            <p>Automatically saves your selected candidate from the suggestions list and will select it automatically on the next time.
+</p>
+                        </div>
+                    </div>
+                    <!-- End Single Feature Item -->
+                
+                    <!-- Single Feature Item -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-block color-bg text-center">
+                            <div class="service-icon text-center">
+                                <i class="tf-ion-ios-albums-outline"></i>
+                            </div>
+                            <h3>Layout Viewer</h3>
+                            <p>See the actual image of the current keyboard layout anytime you need. Now there is no need to print or draw a keyboard layout and attach it on your computer table!
+</p>
+                        </div>
+                    </div>
+                    <!-- End Single Feature Item -->
+                
+                    <!-- Single Feature Item -->
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="service-block color-bg text-center">
+                            <div class="service-icon text-center">
+                                <i class="tf-ion-android-options"></i>
+                            </div>
+                            <h3>Fully Customizable</h3>
+                            <p>It&#39;ll never get in your way!
+</p>
+                        </div>
+                    </div>
+                    <!-- End Single Feature Item -->
+                
+            </div>
+        </div>
+    </section>
+    <!-- End Feature section -->
+    
+
+
+
+  
+
+    
+    <!-- About Section Start -->
+    <section class="about section-sm" id="about">
+        <div class="container">
+            
+                
+                    <div class="row mb-50 justify-content-center">
+                        <div class="col-md-5 col-sm-12 text-center offset-md-1">
+                            <img src="https://openbangla.github.io/images/screenshot-1.png" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="content">
+                                <h2>Avro Phonetic</h2>
+                                <p>
+                                    Support for preview window to see suggestions with dictionary assistance. Type with confidence. The suggestion list also includes the written <strong>English word</strong>, which is very helpful when you just need it!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+            
+                
+                    <div class="row mt-50 justify-content-center">
+                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                            <div class="content">
+                                <h2>Get suggestions when writing with Probhat and others</h2>
+                                <p>
+                                    Get suggestions with dictionary assistance even when writing with Fixed Keyboard methods such as <strong>Probhat</strong>, <strong>Jatiya</strong> and others which was <strong>never possible before!</strong>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-sm-12 text-center">
+                            <img src="https://openbangla.github.io/images/screenshot-2.png" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                    </div>
+                
+            
+                
+                    <div class="row mb-50 justify-content-center">
+                        <div class="col-md-5 col-sm-12 text-center offset-md-1">
+                            <img src="https://openbangla.github.io/images/ligature.png" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <div class="content">
+                                <h2>Write Kar as you like</h2>
+                                <p>
+                                    Use <strong>Traditional Kar Joining</strong> feature of Fixed Layouts and see beautiful literary kar ligatures in your writing.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+            
+                
+                    <div class="row mt-50 justify-content-center">
+                        <div class="col-md-5 col-md-5 col-sm-12 offset-md-1">
+                            <div class="content">
+                                <h2>Configuration always at your hand</h2>
+                                <p>
+                                    Comes with a configuration tool which is very <strong>handy</strong> and <strong>easy</strong> to use!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-5 col-sm-12 text-center">
+                            <img src="https://openbangla.github.io/images/topbar.png" class="img-fluid rounded shadow" alt="about-image">
+                        </div>
+                    </div>
+                
+            
+        </div>
+    </section>
+    <!-- About section End -->
+    
+
+
+
+  
+
+    
+
+
+
+  
+
+    
+    <!-- Start Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="title text-center">
+                        
+                            <h4>A picture is worth a thousand words</h4>
+                        
+                        
+                            <h2>Screenshots.</h2>
+                            <span class="border"></span>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row filtr-container">
+                
+                    <div class="col-6 col-md-4 padding-0 filtr-item" data-category="linux">
+                        <div class="portfolio-block">
+                            <img class="img-fluid" src="https://openbangla.github.io/images/portfolio/settings.png" alt="portfolio-image">
+                            <div class="caption">
+                                <a class="search-icon" href="https://openbangla.github.io/images/portfolio/settings.png" data-lightbox="image-1">
+                                    <i class="tf-ion-image"></i>
+                                </a>
+                                <h4>
+                                    <a href="https://openbangla.github.io/images/portfolio/settings.png" data-lightbox="image-1">Fully Customizable</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-6 col-md-4 padding-0 filtr-item" data-category="linux">
+                        <div class="portfolio-block">
+                            <img class="img-fluid" src="https://openbangla.github.io/images/portfolio/auto_correct.png" alt="portfolio-image">
+                            <div class="caption">
+                                <a class="search-icon" href="https://openbangla.github.io/images/portfolio/auto_correct.png" data-lightbox="image-1">
+                                    <i class="tf-ion-image"></i>
+                                </a>
+                                <h4>
+                                    <a href="https://openbangla.github.io/images/portfolio/auto_correct.png" data-lightbox="image-1">Auto Correct Entries</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-6 col-md-4 padding-0 filtr-item" data-category="linux">
+                        <div class="portfolio-block">
+                            <img class="img-fluid" src="https://openbangla.github.io/images/portfolio/topbar-layout.png" alt="portfolio-image">
+                            <div class="caption">
+                                <a class="search-icon" href="https://openbangla.github.io/images/portfolio/topbar-layout.png" data-lightbox="image-1">
+                                    <i class="tf-ion-image"></i>
+                                </a>
+                                <h4>
+                                    <a href="https://openbangla.github.io/images/portfolio/topbar-layout.png" data-lightbox="image-1">Changing Layouts</a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
         
+    </section>
+    <!-- End section -->
+    
 
-<p><strong>OpenBangla Keyboard</strong> is an OpenSource Bengali input method for GNU/Linux systems.  It&rsquo;s flexible, gorgeous, feature rich, totally customizable, user friendly and already has a lot of typing automation tools that you have never imagined!</p>
 
-<div style="text-align:center">
-    <iframe src="https://ghbtns.com/github-btn.html?user=OpenBangla&amp;repo=OpenBangla-Keyboard&amp;type=star&amp;count=true" frameborder="0" scrolling="0" width="106px" height="20px"></iframe>
-</div>
 
-<blockquote>
-<p>One of the major feature of OpenBangla Keyboard is it mimics the award winning <a href="https://www.omicronlab.com/avro-keyboard.html">Avro Keyboard</a>. So the users of Avro Keyboard will feel at home even on Linux!</p>
-</blockquote>
-
-<p><center>
-<ul style="list-style-type:none">
-<li> <strong>Fully Unicode Compliant</strong> </li>
-<li> <strong>Efficient &amp; Customizable</strong> </li>
-<li> <strong>Phonetic, Touch based Typing</strong> </li>
-</ul>
-</center></p>
-
-<p>The aim of this project is to add all popular Bengali typing methods from Bangladesh and India in a single interface. We want to make desktop publishing in Bengali more easier and convenient. We want to boost the use of Bengali in computers. Currently we have <strong>English to Bangla Typing</strong> or <strong>Phonetic typing</strong> for home users and for professionals we have <strong>Traditional Keyboard Layout</strong> or <strong>Fixed typing method</strong>.</p>
-
-<p></br></p>
-
-<div class="main-explain-area jumbotron">
-    <!--
-    <div class="get-started-wrap" style="text-align:center">
-        <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases" target="_blank">Download Packages for Linux</a>
+  
+<!-- Blog Section Start -->
+<section class="blog section" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title text-center">
+                    <h4>Stay Updated!</h4>
+                    <h2>Blog.</h2><span class="border"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
+            <!-- single blog post -->
+            <article class="col-12 col-md-4">
+                <div class="post-item">
+                    
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="https://openbangla.github.io/images/blog/default.png" alt="Generic placeholder image">
+                    </div>
+                    
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="https://openbangla.github.io/blog/releasing-2-0-0/">ওপেনবাংলা কিবোর্ড ২.০.০ - প্রকাশিত!</a>
+                        </h3>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                Muhammad Mominul Huque
+                            </li>
+                            <li class="list-inline-item">
+                                <span>at</span>
+                                <span>October 2, 2020</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p><p>প্রায় ২ বছর পর আপনাদের কাছে ওপেনবাংলা কিবোর্ডের ২.০.০ সংস্করণ এনে দিতে পেরে আমরা খুবই আনন্দিত। তবে আগেই বলে দিতে চাই, এযাবতকালে ওপেনবাংলা কিবোর্ডের অন্যতম বড় রিলিজ হতে চলেছে এটি!</p></p>
+                    </div>
+                    <a class="btn btn-main" href="https://openbangla.github.io/blog/releasing-2-0-0/">Read more</a>
+                </div>
+            </article>
+            <!-- /single blog post -->
+            
+            <!-- single blog post -->
+            <article class="col-12 col-md-4">
+                <div class="post-item">
+                    
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="https://openbangla.github.io/images/blog/default.png" alt="Generic placeholder image">
+                    </div>
+                    
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="https://openbangla.github.io/blog/releasing-1-5-1/">ওপেনবাংলা কিবোর্ড ১.৫.১ - প্রকাশিত!</a>
+                        </h3>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                Muhammad Mominul Huque
+                            </li>
+                            <li class="list-inline-item">
+                                <span>at</span>
+                                <span>October 12, 2018</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p><p>ওপেনবাংলা কিবোর্ডের এই নতুন সংস্করণ একটি রক্ষণাবেক্ষণমূলক বা &ldquo;<em>maintenance release</em>&rdquo;, তাই এই সংস্করণে মূলত বাগ ফিক্সকে গুরুত্ব দেয়া হয়েছে।</p></p>
+                    </div>
+                    <a class="btn btn-main" href="https://openbangla.github.io/blog/releasing-1-5-1/">Read more</a>
+                </div>
+            </article>
+            <!-- /single blog post -->
+            
+            <!-- single blog post -->
+            <article class="col-12 col-md-4">
+                <div class="post-item">
+                    
+                    <div class="post-thumb">
+                        <img class="img-fluid shadow rounded" src="https://openbangla.github.io/images/blog/default.png" alt="Generic placeholder image">
+                    </div>
+                    
+                    <div class="post-title">
+                        <h3 class="mt-0">
+                            <a href="https://openbangla.github.io/blog/releasing-1-5-0/">ওপেনবাংলা কিবোর্ড ১.৫.০ - প্রকাশিত!</a>
+                        </h3>
+                    </div>
+                    <div class="post-meta">
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <span>By</span>
+                                Muhammad Mominul Huque
+                            </li>
+                            <li class="list-inline-item">
+                                <span>at</span>
+                                <span>June 30, 2018</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <p><p>ওপেনবাংলা কিবোর্ডের ১.৫.০ সংস্করণ আপনাদের কাছে এনে দিতে পেরে আমরা খুবই আনন্দিত। ওপেনবাংলা কিবোর্ডের এই সংস্করণে যেমন নতুন বৈশিষ্ট্য রয়েছে তেমনি ত্রুটির সমাধানও রয়েছে।</p></p>
+                    </div>
+                    <a class="btn btn-main" href="https://openbangla.github.io/blog/releasing-1-5-0/">Read more</a>
+                </div>
+            </article>
+            <!-- /single blog post -->
+            
+        </div>
     </div>
-    </br>-->
-    <p>To install OpenBangla Keyboard, run the following in your terminal:</p>
-    <pre><code class="language-bash">bash -c "$(wget -nv -O- https://git.io/JUGB8)"
-</code></pre>
-    <p style="text-align:center">Or visit <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard" target="_blank">manual install instructions</a>.</p>
-</div>
-
-<h2 id="features">Features</h2>
-
-<h4 id="phonetic-typing">Phonetic Typing</h4>
-
-<p><strong>English to Bangla:</strong>
-OpenBangla Keyboard comes with Avro Phonetic. So like in Avro Keyboard, you can write <code>ami banglay gan gai</code> and it will convert to <code>আমি বাংলায় গান গাই</code></p>
-
-<p><strong>Floating Preview window:</strong>
-See on the fly how your English text is converting to Bangla!</p>
-
-<p><strong>Dictionary Support:</strong>
-This English to Bangla phonetic typing method supports Dictionary with near about 150000 Bangla words and auto-correct feature.</p>
-
-<h4 id="touch-typing">Touch Typing</h4>
-
-<p><strong>Multiple Keyboard Layout Support:</strong>
-With OpenBangla Keyboard, you can choose your favourite layout at any time in <strong>Layout menu</strong> like you done in Avro Keyboard. Currently we package these layouts with OpenBangla Keyboard:</p>
-
-<ul>
-<li><strong>Probhat</strong></li>
-<li><strong>Munir Optima</strong></li>
-<li><strong>Avro Easy</strong> - An easy to learn keyboard layout from OmicronLab.</li>
-<li><strong>Bornona</strong> - The easiest Bangla keyboard layout we have found yet! From &ldquo;The Safeworks&rdquo;.</li>
-<li><strong>National (Jatiya)</strong> - Standard Bangla Keyboard Layout in Bangladesh designed by Bangladesh Computer Council (BCC).</li>
-</ul>
-
-<p><strong>Automatic Vowel Forming:</strong>
-Unleash your typing speed with this great algorithm. In a good number of cases, simply typing the kar/matra/short form of vowel will produce the full form of vowel automatically, there is no need to type the Link key. This Automatic Vowel Forming can also be kept disabled from the <strong>Settings menu</strong>.</p>
-
-<p><strong>Old Style “Reph”:</strong>
-Although in phonetic typing method Reph is typed at the beginning of a consonant, this may be seemed peculiar to the users (and it happened!). Like Avro Keyboard, OpenBangla Keyboard now uses the “auto Reph” feature, which will automatically move the Reph at the beginning of a consonant/&ldquo;juktakkhor&rdquo; (conjunct) when you type it at the end. This Old Style Reph can also be kept disabled from the <strong>Settings menu</strong>.</p>
-
-<p><strong>Traditional Kar Joining:</strong>
-There are two forms of Kar joining. One is <code>রু</code> which is frequently used, but there is an another form <code>র‌ু</code> which is used in books. With this option user can write in this form of Kar joining. This option can be enabled from the <strong>Settings menu</strong>.</p>
-
-<p><strong>Avro Keyboard Layout Support:</strong>
-OpenBangla Keyboard supports the layouts file that are from Avro Keyboard. So you can use those layouts you have created with Avro Keyboard tools!</p>
-
-<p><strong>Assamese Language Support:</strong>
-You can also type Assamese using all these keyboard layouts as necessary Assamese characters are placed here.</p>
-
-<h4 id="layout-viewer">Layout Viewer</h4>
-
-<p>This is a must have feature for any virtual keyboard interface like OpenBangla Keyboard. But all including Microsoft seem to overlook it. With this handy tool, users can see the actual image of the current keyboard layout anytime they need. Now there is no need to print or draw a keyboard layout and attach it on your computer table!</p>
-
-      </article>
-
-      
+</section>
+<!-- Blog Section End -->
 
 
-      
+  
 
+    
+
+
+
+  
+<!-- Start Contact Us -->
+<section class="contact-us section bg-gray" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="social-icons-block contact-meta-block">
+                    <h4>We are social</h4>
+                    <ul class="list-inline social-icon">
+                        
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/openbanglakeyboard">
+                                <i class="tf-ion-social-facebook"></i>
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/OpenBanglaTeam">
+                                <i class="tf-ion-social-twitter"></i>
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="list-inline-item">
+                            <a href="https://github.com/OpenBangla">
+                                <i class="tf-ion-social-github"></i>
+                            </a>
+                        </li>
+                        
+                        
+                        <li class="list-inline-item">
+                            <a href="mailto:openbanglateam@gmail.com">
+                                <i class=" tf-ion-android-mail"></i>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
+</section>
 
-    <footer>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <ul class="list-inline text-center footer-links">
-          
-              <li>
-                <a href="mailto:openbanglateam@gmail.com" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/openbanglakeyboard" title="Facebook">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/OpenBangla" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/OpenBanglaTeam" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-          
-          <li>
-            
-            <a href="https://openbangla.github.io/index.xml" title="RSS">
-            
-              <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x"></i>
-                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          
-        </ul>
-        <p class="credits copyright text-muted">
-          
-            
-              <a href="https://openbangla.github.io">OpenBangla Team</a>
-            
-          
 
-          &nbsp;&bull;&nbsp;
-          2018
 
-          
-            &nbsp;&bull;&nbsp;
-            <a href="https://openbangla.github.io">OpenBangla</a>
-          
-        </p>
-        
-        <p class="credits theme-by text-muted">
-          <a href="http://gohugo.io">Hugo v0.37.1</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
-          
-        </p>
-      </div>
+        </div><!-- Footer Start -->
+<footer id="footer" class="bg-one">
+    <div class="footer-bottom">
+        <h6>Copyright 2015-2020 OpenBangla Team. All rights reserved.</h6>
+        <h6>Theme by 
+            <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">themefisher.com</a>
+        </h6>
     </div>
-  </div>
 </footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="https://openbangla.github.io/js/main.js"></script>
-<script src="https://openbangla.github.io/js/highlight.min.js"></script>
-<script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
-<script src="https://openbangla.github.io/js/load-photoswipe.js"></script>
+<!-- end footer -->
 
 
+<!-- Essential Scripts -->
 
+<!-- jQuery -->
+<script src="https://openbangla.github.io/plugins/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="https://openbangla.github.io/plugins/bootstrap/dist/js/popper.min.js"></script>
+<script src="https://openbangla.github.io/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- Parallax -->
+<script src="https://openbangla.github.io/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+<!-- lightbox -->
+<script src="https://openbangla.github.io/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+<!-- Slick Carousel -->
+<script src="https://openbangla.github.io/plugins/slick-carousel/slick/slick.min.js"></script>
+<!-- Portfolio Filtering -->
+<script src="https://openbangla.github.io/plugins/filterzr/jquery.filterizr.min.js"></script>
+<!-- Smooth Scroll js -->
+<script src="https://openbangla.github.io/plugins/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCC72vZw-6tGqFyRhhg5CkF2fqfILn2Tsw"></script>
+<!-- Main Script -->
 
-
-
-  </body>
+<script src="https://openbangla.github.io/js/script.min.js"></script>
+</body>
 </html>
-
