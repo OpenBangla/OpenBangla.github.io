@@ -2,7 +2,7 @@
 <html class="no-js" lang="en-us"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="generator" content="Hugo 0.76.5" />
+<meta name="generator" content="Hugo 0.78.2" />
 
 
 <title>Install OpenBangla Keyboard</title>
@@ -131,16 +131,18 @@
 <p>First set up our repositories for your distro, then you can install normally with your package manager.</p>
 <h2 id="ubuntu--derivatives">Ubuntu &amp; derivatives</h2>
 <p>Run these commands to set up our repository:</p>
+<p><strong>Note: Don&rsquo;t forget to run <code>source /etc/os-release</code>, otherwise the installation will fail.</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /etc/os-release
-sudo sh -c <span style="color:#e6db74">&#34;curl https://dl.bintray.com/openbangla/i/pub.key | apt-key add -&#34;</span>
-sudo sh -c <span style="color:#e6db74">&#34;curl https://dl.bintray.com/openbangla/i/ubuntu.conf | sed s/@NAME@/</span>$UBUNTU_CODENAME<span style="color:#e6db74">/ &gt; /etc/apt/sources.list.d/openbangla.list&#34;</span>
+sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/pub.key -q -O - | apt-key add -&#34;</span>
+sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/ubuntu.conf -q -O - | sed s/@NAME@/</span>$UBUNTU_CODENAME<span style="color:#e6db74">/ &gt; /etc/apt/sources.list.d/openbangla.list&#34;</span>
 sudo apt update
 sudo apt install openbangla-keyboard
 </code></pre></div><h2 id="debian">Debian</h2>
 <p>Run these commands to set up our repository:</p>
+<p><strong>Note: Don&rsquo;t forget to run <code>source /etc/os-release</code>, otherwise the installation will fail.</strong></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /etc/os-release
-sudo sh -c <span style="color:#e6db74">&#34;curl https://dl.bintray.com/openbangla/i/pub.key | apt-key add -&#34;</span>
-sudo sh -c <span style="color:#e6db74">&#34;curl https://dl.bintray.com/openbangla/i/debian.conf | sed s/@NAME@/</span>$VERSION_CODENAME<span style="color:#e6db74">/ &gt; /etc/apt/sources.list.d/openbangla.list&#34;</span>
+sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/pub.key -q -O - | apt-key add -&#34;</span>
+sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/debian.conf  -q -O - | sed s/@NAME@/</span>$VERSION_CODENAME<span style="color:#e6db74">/ &gt; /etc/apt/sources.list.d/openbangla.list&#34;</span>
 sudo apt update
 sudo apt install openbangla-keyboard
 </code></pre></div><h2 id="fedora">Fedora</h2>
