@@ -6,7 +6,16 @@
     <description>Recent content on OpenBangla Keyboard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://openbangla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://openbangla.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>বিশেষ বিজ্ঞপ্তি!</title>
+      <link>https://openbangla.github.io/blog/bintray-notice/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://openbangla.github.io/blog/bintray-notice/</guid>
+      <description>&lt;p&gt;ওপেনবাংলা কিবোর্ড ২.০.০ সংস্করণ প্রকাশের মধ্য দিয়ে আমরা Bintray এর মাধ্যমে বিভিন্ন লিনাক্স ডিস্ট্রিবিউশনের জন্য প্যাকেজ বিতরণ করা শুরু করি। তবে পহেলা মে থেকে Bintray তাদের পরিষেবা গুটিয়ে নিচ্ছে।&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>ওপেনবাংলা কিবোর্ড ২.০.০ - প্রকাশিত!</title>
       <link>https://openbangla.github.io/blog/releasing-2-0-0/</link>

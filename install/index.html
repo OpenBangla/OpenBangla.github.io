@@ -2,7 +2,7 @@
 <html class="no-js" lang="en-us"><head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="generator" content="Hugo 0.78.2" />
+<meta name="generator" content="Hugo 0.82.0" />
 
 
 <title>Install OpenBangla Keyboard</title>
@@ -128,35 +128,31 @@
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <p><strong>If you had installed OpenBangla Keyboard 1.5.1 or earlier version, <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Uninstalling-OpenBangla-Keyboard">please uninstall it first.</a></strong></p>
-<p>First set up our repositories for your distro, then you can install normally with your package manager.</p>
-<h2 id="ubuntu--derivatives">Ubuntu &amp; derivatives</h2>
-<p>Run these commands to set up our repository:</p>
-<p><strong>Note: Don&rsquo;t forget to run <code>source /etc/os-release</code>, otherwise the installation will fail.</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /etc/os-release
-sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/pub.key -q -O - | apt-key add -&#34;</span>
-sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/ubuntu.conf -q -O - | sed s/@NAME@/</span>$UBUNTU_CODENAME<span style="color:#e6db74">/ &gt; /etc/apt/sources.list.d/openbangla.list&#34;</span>
-sudo apt update
-sudo apt install openbangla-keyboard
-</code></pre></div><h2 id="debian">Debian</h2>
-<p>Run these commands to set up our repository:</p>
-<p><strong>Note: Don&rsquo;t forget to run <code>source /etc/os-release</code>, otherwise the installation will fail.</strong></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">source /etc/os-release
-sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/pub.key -q -O - | apt-key add -&#34;</span>
-sudo sh -c <span style="color:#e6db74">&#34;wget https://dl.bintray.com/openbangla/i/debian.conf  -q -O - | sed s/@NAME@/</span>$VERSION_CODENAME<span style="color:#e6db74">/ &gt; /etc/apt/sources.list.d/openbangla.list&#34;</span>
-sudo apt update
-sudo apt install openbangla-keyboard
-</code></pre></div><h2 id="fedora">Fedora</h2>
-<p>Run these commands to set up our repository:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo rpm --import https://dl.bintray.com/openbangla/i/pub.key
-sudo sh -c <span style="color:#e6db74">&#34;curl https://dl.bintray.com/openbangla/i/fedora.conf &gt; /etc/yum.repos.d/openbangla.repo&#34;</span>
-sudo dnf install openbangla-keyboard
-</code></pre></div><h2 id="archlinux">Archlinux</h2>
-<p>Run these commands to set up our repository:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo sh -c <span style="color:#e6db74">&#34;curl https://dl.bintray.com/openbangla/i/pub.key | pacman-key -a -&#34;</span>
-sudo pacman-key --lsign-key <span style="color:#e6db74">&#34;openbanglateam@gmail.com&#34;</span>
-sudo sh -c <span style="color:#e6db74">&#34;curl https://dl.bintray.com/openbangla/i/archlinux.conf &gt;&gt; /etc/pacman.conf&#34;</span>
-sudo pacman -Syy
-sudo pacman -S openbangla-keyboard
+<h4 id="ubuntu-fedora-and-their-derivatives">Ubuntu, Fedora and their derivatives</h4>
+<p>Open your terminal and run this command on your bash shell. NB : It has to be <strong>BASH</strong>, otherwise it won&rsquo;t work.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">bash -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>wget -q https://raw.githubusercontent.com/OpenBangla/OpenBangla-Keyboard/master/tools/install.sh -O -<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>If this does not workout for you please create an <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/issues">Issue</a>. While we look into the problem you can check the <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/wiki/Installing-OpenBangla-Keyboard">Wiki</a> for Distrowise/Distro-specific Install Instructions.</p>
+<h4 id="archlinux-and-its-derivatives">Archlinux and it&rsquo;s derivatives</h4>
+<p>There are two packages for OpenBangla Keyboard in the Arch User Repository(AUR). Use <code>openbangla-keyboard</code> if you want to make and install the package from source. Otherwise, use <code>openbangla-keyboard-bin</code> to use the binary package released for Arch and its derivatives by the maintainer. You can install it in one command with your favorite aur helper. Example commands for some popular tools:</p>
+<h5 id="openbangla-keyboard"><code>openbangla-keyboard</code></h5>
+<ul>
+<li><code>$ pacaur -S openbangla-keyboard</code></li>
+<li><code>$ yay -S openbangla-keyboard</code></li>
+<li><code>$ yaourt -S openbangla-keyboard</code></li>
+</ul>
+<h5 id="openbangla-keyboard-bin"><code>openbangla-keyboard-bin</code></h5>
+<ul>
+<li><code>$ pacaur -S openbangla-keyboard-bin</code></li>
+<li><code>$ yay -S openbangla-keyboard-bin</code></li>
+<li><code>$ yaourt -S openbangla-keyboard-bin</code></li>
+</ul>
+<p>Or install manually:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">sudo pacman -S base-devel git
+git clone https://aur.archlinux.org/openbangla-keyboard.git
+cd openbangla-keyboard
+makepkg -risc
+</code></pre></div><p>We also provide a <code>.pkg.tar.zst</code> package for Arch Linux which you can download the installation package from <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases">releases page</a> and install OpenBangla Keyboard on your system by running the following command:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo pacman -U package.pkg.tar.xz
 </code></pre></div><h2 id="others">Others</h2>
 <p>You can also install by downloading necessary packages from our <a href="https://github.com/OpenBangla/OpenBangla-Keyboard/releases">Releases</a> page.</p>
 <h2 id="finally">Finally</h2>
